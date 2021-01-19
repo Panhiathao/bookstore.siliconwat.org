@@ -1,7 +1,63 @@
 ## page 1 ##
+DOM====>
+What is a DOM? 
+DOM stands for Document object model. 
+what is inside a DOM or for short its a document.
+ tags
+How do tags looks like?
+<></> some have self-closing tags some dont
+</>
+tags always have letters in it <b></b>
+or words <html>
+What is the first tag a DOM start with ? 
+<html></html> this is known as the root 
+and inside <html> thre is the parent tags <head></head> and <body></body> these two tags can have many as many children tags and grandchildren tags as they needed. 
+look a family tree. 
 
-?????
+You have your grandparent, your parent and children. A DOM has a family too. 
+We always indent when we move from grandparent to parent to children.
+This helps us know identify next generation.
+
+Review: 
+What is the root of the DOM?
+The children of the root?
+Can the <head> <body>? 
+what are tags?
+
+
+
+
 
 ## page 2 ##
 
+CSS ===>
+Lets color the DOM?
+First, we have to learn how to write using the Cascading Style Sheet or CSS? 
+we need to know where in family we want to color? 
+for example do we want the first child of the root? 
+do you remember the root of DOM? 
+the child of <html> is <head><body>
+:first-child 
+:last-child
+
+how do we grab tag in css? 
+<b>
+b {}
+what is {}? 
+this is the curly bracket? 
+this is where we tell it what to do?  
+change color
+color: 
+background-color:
+
+
 ## page 3 ##
+
+Js ===>
+
+How do we grab the document and first child
+document.head.tagName
+do you know what case sensitive or case insensitive? 
+Aa, Ba, Cc
+
+
