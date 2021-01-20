@@ -1,4 +1,5 @@
 ## page 1 ##
+problem 1
 DOM====>
 What is a DOM? 
 DOM stands for Document object model. 
@@ -24,6 +25,11 @@ The children of the root?
 Can the <head> <body>? 
 what are tags?
 
+CONSOLE
+
+The console allow you to test:
+Like a calculator you can use it to plug in your numbers and function for outcome. 
+
 
 
 
@@ -33,7 +39,7 @@ what are tags?
 CSS ===>
 Lets color the DOM?
 First, we have to learn how to write using the Cascading Style Sheet or CSS? 
-we need to know where in family we want to color? 
+we need to know which family member we want to color? 
 for example do we want the first child of the root? 
 do you remember the root of DOM? 
 the child of <html> is <head><body>
@@ -59,5 +65,72 @@ How do we grab the document and first child
 document.head.tagName
 do you know what case sensitive or case insensitive? 
 Aa, Ba, Cc
+
+
+## page 4 ##
+To do wonder what goes in a <head><body> ? 
+<head>
+ <script>
+ <style>
+ <meta data>
+</head>
+
+<body>
+sectioning tags 
+ <section>
+ <article>
+ <p>
+ <h1 - h5>
+ etc
+</body>
+
+There are three path we can take to code please distinguish the difference? 
+
+external, inline or internal 
+
+External is you write in its file
+internal is you write in the code in the <script></style>
+inline is you style within the code inside the tag
+
+```<style>
+			:last-child {
+				background: green;
+			}
+	</style>```
+ 
+ <h style="color:blue" ></h>
+ 
+ What link do you need to bring in the external? 
+  
+  
+
+  
+
+## page 5 ##
+
+Absolute Units
+
+Measurements  that does not change is 
+inches (in)
+pixels (px)
+centementer (cm)
+
+relative unites that depends to the parent.
+view width (vw)
+view height (vh)
+percentage (%)
+
+
+
+
+## page 6 ##
+
+## page 7 ##
+
+## page 8 ##
+
+## page 9 ## 
+
+
 
 
