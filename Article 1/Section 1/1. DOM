@@ -121,11 +121,88 @@ view height (vh)
 percentage (%)
 
 why do we need measurement you may ask? 
-measurement is for 
+measurement is for the element/tag/content
+surrounding element is padding. border, margin in this order
+
+what are the orders in a box model from in to out?
+
+content, padding, border, margin
+
+what is the order in ascending order?
+
+margin border padding content
 
 
 
+###Box Model###
+What is a box model?
+every html element/tag has a box model. 
+a box model help with layout. 
+every box model has allow us to create border and space 
 
+how do you define the box model in css? 
+
+p {
+padding: 
+border: 
+margin:  }
+
+What goes in the box model  as properties? 
+color, measurements
+
+Every box model has a defined side? it always start with 
+
+top, right, bottom, left
+
+how many css for border-style? 
+border-width:
+border-style: 
+border-color:
+
+Please review the list? 
+
+How do you write shorthand for measurement for each side? 
+
+padding: top, right, bottom, left
+border: width, style, color
+
+### Text Nodes###
+
+position of the text node?
+text node goes in between the opening and closing tags
+
+how do you select a tag in css? 
+
+identification tag, id, class
+
+How can you use JavaScript to grab a tag and its text node?
+
+querySelector
+firstChild
+nextSilbing
+textContent
+
+
+
+Html cannot control or make adjustment to other language but css and Js can alter the HTML 
+
+###Font Family###
+How do you change the font in css? 
+
+font-size:
+font-family:
+font-stretch:
+font-weight:
+
+line-height:
+
+shorthand
+
+font: size font-family
+
+how do you bring in other fonts?
+
+@import url()
 ## page 6 ##
 
 ## page 7 ##
