@@ -352,8 +352,74 @@ Css specificity?
 
 what is css specificity?
 it means that the last one will is the specific and override the element before
+combinators (+, >, ~, ' ', ||)
 
 ## page 9 ## 
+
+###JS Selector###
+
+document is the dom
+we want to select and element
+document.querySelector("p)
+for text
+document.querySelector("p").textContent 
+if we want to alter text
+document.querySelector("p").textContent =
+
+we can use id to grab
+
+id.textContent
+we can change using id
+id.textContent = 
+
+We can grab an element by id
+
+document.getElementById() 
+ 
+class 
+document.getElementsByName()
+
+
+###Traversing from Children to Parent###
+
+what are other ways to get element? 
+by using the tree to specify parent to child and siblings.
+
+
+firstElementChild.nextElementSibling.nextElementSibling.children[3].tagName
+document.body.firstElementChild.nextElementSibling.nextElementSibling.children[0].childElementCount
+
+### LifeCycle of a Page###
+What is lifecycle of JS? 
+
+What is DOMContentLoaded? 
+
+load the html dom tree 
+does external sheet affect the DOMContentloaded? no it does not wait or load external files.
+
+what is load? 
+it load image and style
+
+what is beforeunload and unload? 
+the user leave the page/going to the nex page
+this trigger the window
+
+what is readystatechange? 
+what is onreadystatechange? 
+this is the stage of transition.
+
+Please show the steps of the lifecycle? 
+
+loading, domContent loaded onload readystatecompelet, window onload
+
+
+###Dimension of elements###
+
+
+
+
+
+
 
 
 
