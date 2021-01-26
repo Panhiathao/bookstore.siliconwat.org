@@ -204,10 +204,140 @@ how do you bring in other fonts?
 
 @import url()
 ## page 6 ##
+what is anchor tag?
+what is an image tag?
+<img>
+it help to bring in an image from with a https link or from files'
+what is alt?
+its alternate text for accessibility\
+what attribute is used to bring in img? source is written src
+
+How do we style an image as a background? 
+we can use the 
+
+background-image: url()
+What are some of the attribute of background we can style with background-image? 
+background-repeat:
+background-origin:
+background-size: 
+background-position:
+background-attachment:
+overflow:  this is for scroll
+
+what can we use as content for a box model? 
+{
+background-clip: content-box
+}
+is there background-clip: border-box? yes
+is there a Shorthand? 
+this one is deprecated but this is how you would write it
+background: border-box url() repeat border-box fixed center/contain color;
+
+best shorthand for background? 
+background: padding-box repeat scroll position url()
+
+
+
 
 ## page 7 ##
+How can we style the web page with color? 
+background-color: color
+background: color
+background: rgb()
+what does rgb stands for? 
+Red Green Blue this is a mix of color
+ranging from 0 to 255 shades
+what are the rgb() for white and black? 
+white rgb(255, 255, 255)
+black rgb(0,0,0)
+what is hex? 
+hexadecimal color value it also goes by RGB but its RR(), GG(), BB()
+it color is range from 00-99  to AA- ff
+
+what is hsl? 
+hsl(Hue Saturation Lightness)
+hue is a color from 0 to 360 
+0 is red 120 is green 240 is blue
+
+saturation is in percenntage  0% is gray and 100% is full color
+
+lightness? 0% is black 100% is white
+
+background: transparent 
+
+
+
 
 ## page 8 ##
+
+what is a pseudo-elements? 
+pseudo element has two colon
+
+::before
+::after
+::first-line
+::first-letter
+::selection
+
+pseudo element select part of an element
+
+pseudo class 
+has one colon :
+
+:link
+:visited
+:hover
+:root
+:empty
+:nth-child()
+:nth-last-child()
+:nth-of-type()
+:first-of-type
+:last-of-type
+:only of type
+
+what are other css selectors?
+
+* this is all
+*::before this select everything before
+ you can select and element 
+ body
+ you can select footer > a
+ you can do parent to child 
+ body tag to a tag by 
+ body a {}
+ 
+ hgroup + p 
+ a[target=_blank] {
+	color: violet;
+}
+
+a[target=_BLANK s] {
+	color: orange;
+}
+
+header a:hover, footer a:hover {
+	color: cyan;
+}
+
+:is(header, footer) a:hover {
+	color: orange;
+}
+
+hgroup :not(h2) {
+	color: red;
+}
+ 
+ 
+ 
+
+
+
+
+
+
+pseudo class and element is a css selector for an element
+
 
 ## page 9 ## 
 
