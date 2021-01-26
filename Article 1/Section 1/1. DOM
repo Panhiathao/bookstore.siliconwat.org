@@ -338,6 +338,20 @@ hgroup :not(h2) {
 
 pseudo class and element is a css selector for an element
 
+###ID and Class###
+
+what can have id and class? 
+all element can have id and class
+
+In css how can we grab the id and class? 
+
+if an element has and id, in css we grap by # 
+and by class we grab .
+
+Css specificity? 
+
+what is css specificity?
+it means that the last one will is the specific and override the element before
 
 ## page 9 ## 
 
