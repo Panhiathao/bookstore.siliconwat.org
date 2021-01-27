@@ -415,6 +415,76 @@ loading, domContent loaded onload readystatecompelet, window onload
 
 ###Dimension of elements###
 
+the demensions of an element includes width and height
+
+scrollTop
+
+window.innerWidth
+window.innerHeight
+clientWidth
+onresized
+.srcollWidth
+.scrollHeight
+
+
+
+what are the properties of the dimension of the element? 
+
+###Lifecycle of a mouse###
+
+this is mouse event is the mouse and the ui interacting  
+In javascript, we can control the mouse by the event of the mouse
+what are some mouse event for JS?
+
+why is mouse event important? 
+
+What are some mouse event? 
+
+click => onclick
+
+double click => onblclick
+
+mouseenter => onmouseenter
+mouseleave => onmouseleave
+
+###Form Elements###
+
+
+Why is form important? 
+it allows a all input tags in form to be submit at a time
+
+What is inside a form?
+
+<form>
+<fieldset> everything that is inside a field is in here
+<legend>
+<label>
+<input>
+<label>
+<input>
+<button>
+What do you need an output for? Score
+<output>
+
+Please learn input!!
+
+
+It is best to have <label><input type?
+
+what is option group and how do you write it? 
+
+<optgroup>
+<option>
+
+
+
+
+
+
+
+
+
+
 
 
 
