@@ -476,6 +476,49 @@ what is option group and how do you write it?
 <optgroup>
 <option>
 
+###Form Validation###
+
+What is form validation? 
+it is when eveything in the form is validated to be submit.
+
+Css: 
+What is :placeholder-shown ?
+
+it is a pseudo-class that is to select the attribute in input tag
+
+: optional
+
+input:valid
+input:out-of-range
+
+event: 
+submit => onsubmit
+reset => onreset
+invalid => oninvalid
+focus => onfocus
+
+in css 
+
+input:focus
+input:invalid
+
+###Key Events###
+
+what is key event? 
+
+onkeydown is when a key is held down
+on keyup is when a key is release
+onkeypress is when a key has been pressed
+what is keycode? 
+
+keycode is a why to tell what number key is
+
+
+
+
+
+
+
 
 
 
