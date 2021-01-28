@@ -456,6 +456,28 @@ What is event capture?
 to the child element
 why is event propagation important? 
 
+###Regular Expression###
+
+What is regular expression? 
+
+Do we need to use regular expression with methods? 
+yes 
+
+What are some methods? 
+search()
+test()
+
+info:
+exp()
+
+
+
+
+###clipboard Events### 
+What are the clipboard events? 
+select, copy, cut, paste
+
+
 
 ###Form Elements###
 
