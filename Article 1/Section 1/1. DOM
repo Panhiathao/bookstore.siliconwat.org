@@ -447,6 +447,16 @@ double click => onblclick
 mouseenter => onmouseenter
 mouseleave => onmouseleave
 
+### Event Propagation### 
+What two event happen in an element
+event capturing and bubbling
+what is event bubbling? 
+leaving the element
+What is event capture? 
+to the child element
+why is event propagation important? 
+
+
 ###Form Elements###
 
 
